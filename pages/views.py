@@ -78,7 +78,7 @@ def pong(request):
     return render(request, 'pages/pong.html', context)
 
 def signup(request):
-    return render(request,'signup.html')
+    return render(request,'pages/signup.html')
 
 def signup_result(request):
     username = request.POST.get('username')
@@ -91,4 +91,4 @@ def signup_result(request):
     context = {
         'username':username , 'result':result
     }
-    return render(request,'signup_result.html', context)
+    return render(request,'pages/signup_result.html', context)
