@@ -152,7 +152,7 @@ urlpatterns = [
 
 * `urls.py`는 우리의 웹 어플리케이션 경로들을 모두 관리한다.
 * 요청이 들어오면 `urls.py`의 `urlpatterns`에 정의된 경로로 매핑한다.
-* path(`경로`, `views에 정의된 함수`)
+* path(`경로`, `views에 정의된 함수`)C:\Users\student\Desktop\web\first-django-project\pages\views.py
 
 ## 2. View 정의
 
